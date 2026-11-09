@@ -1,0 +1,35 @@
+# Build output (re-created every time you build)
+/build
+/app/build
+.gradle
+.kotlin
+/captures
+.externalNativeBuild
+.cxx
+
+# Android Studio's own settings for this computer
+.idea
+*.iml
+
+# Holds the path to the Android SDK on this computer only
+local.properties
+
+# Signing keys must never be published
+*.jks
+*.keystore
+keystore.properties
+
+# Built apps go on the GitHub Releases page, not in the code
+*.apk
+*.aab
+
+# Private notes and settings for the AI assistant used while building
+CLAUDE.md
+.claude
+
+# Stray backups
+*.zip
+*.bak
+
+.DS_Store
+Thumbs.db
